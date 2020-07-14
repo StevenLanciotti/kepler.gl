@@ -99,7 +99,7 @@ const ImagePreview = ({exportImage, width = 400, showDimension = false}) => {
         ) : error ? (
           <div className="preview-image--error">
             <span>
-              {// @ts-ignore ExportImage.error seems mistyped?
+              {// @ts-ignore
               error.message || 'Generate map image failed!'}
             </span>
           </div>
